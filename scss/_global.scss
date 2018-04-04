@@ -37,7 +37,7 @@ h6 {
 }
 
 .bg-primary {
-  background-color: $primary !important;
+  background-color: $secondary !important;
 }
 
 .bg-dark {
@@ -76,4 +76,9 @@ img::selection {
 img::-moz-selection {
   color: $white;
   background: transparent;
+}
+
+.services {
+  background-color: #3F3F3F;
+  color: #ced4da;
 }

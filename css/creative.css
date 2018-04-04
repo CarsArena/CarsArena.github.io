@@ -39,7 +39,7 @@ h6 {
 }
 
 .bg-primary {
-  background-color: #F05F40 !important;
+  background-color: #313e55 !important;
 }
 
 .bg-dark {
@@ -78,6 +78,11 @@ img::selection {
 img::-moz-selection {
   color: #fff;
   background: transparent;
+}
+
+.services {
+  background-color: #3F3F3F;
+  color: #ced4da;
 }
 
 #mainNav {
