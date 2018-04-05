@@ -82,3 +82,21 @@ img::-moz-selection {
   background-color: #3F3F3F;
   color: #ced4da;
 }
+
+#contact {
+  background-color: $gray-700;
+  padding-bottom: 0;
+  color: $gray-300;
+}
+
+.allegro-button {
+  display: block;
+  background-color: rgba(255, 255, 255, 0.2);
+  transition:all 0.3s ease;
+  &:hover {
+    background-color: rgba(64, 136, 239, 0.5);
+    -webkit-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    transform: scale(1.05);
+  }
+}
