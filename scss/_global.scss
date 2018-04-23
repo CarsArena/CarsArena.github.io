@@ -108,3 +108,30 @@ img::-moz-selection {
 p.subtext {
   color: $gray-500;
 }
+
+
+#about {
+  line-height: 1.7em;
+  .title {
+    font-weight: 700;
+    color: #d6bb21;
+  }
+}
+
+.ikonka{
+  width: 80px;
+  margin-bottom: 16px;
+}
+
+.bar-logo {
+  width: 200px;
+  height: 200px;
+  position: relative;
+  top: 20px;
+  left: 20px;
+}
+
+.full-logo-not-displayed {
+  display: none;
+}
+

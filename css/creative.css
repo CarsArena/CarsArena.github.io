@@ -112,6 +112,32 @@ p.subtext {
   color: #adb5bd;
 }
 
+#about {
+  line-height: 1.7em;
+}
+
+#about .title {
+  font-weight: 700;
+  color: #d6bb21;
+}
+
+.ikonka {
+  width: 80px;
+  margin-bottom: 16px;
+}
+
+.bar-logo {
+  width: 200px;
+  height: 200px;
+  position: relative;
+  top: 20px;
+  left: 20px;
+}
+
+.full-logo-not-displayed {
+  display: none;
+}
+
 #mainNav {
   border-bottom: 1px solid rgba(33, 37, 41, 0.1);
   background-color: #fff;
@@ -198,10 +224,16 @@ p.subtext {
   }
 }
 
+.display-none {
+  display: none;
+  margin: 200px;
+  background-color: red;
+}
+
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 56px);
-  background-image: url("../img/header.jpg");
+  background-image: url("../img/logo.png");
   background-position: center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
