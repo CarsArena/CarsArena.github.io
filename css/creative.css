@@ -150,6 +150,10 @@ p.subtext {
   position: absolute;
 }
 
+.centered-logo {
+  width: 450px;
+}
+
 #mainNav {
   border-bottom: 1px solid rgba(33, 37, 41, 0.1);
   background-color: #212529;
