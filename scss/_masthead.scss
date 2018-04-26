@@ -2,12 +2,15 @@
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 56px);
-  background-image: url('../img/header.jpg');
+  background-image: url('../img/bmw_desert_drift2.jpg');
   background-position: center center;
   @include background-cover;
   hr {
     margin-top: 30px;
     margin-bottom: 30px;
+  }
+  .welcome-text {
+    text-shadow: 0px 0px 10px #FFFFFF;
   }
   h1 {
     font-size: 2rem;
