@@ -283,6 +283,7 @@ header.masthead hr {
 header.masthead .welcome-text {
   text-shadow: 0px 0px 10px #FFFFFF;
   color: black;
+  font-weight: 500;
 }
 
 header.masthead h1 {
